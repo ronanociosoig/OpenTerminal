@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0E558E17DB94230086F880 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0E558D17DB94230086F880 /* Cocoa.framework */; };
+		AF0E559817DB94240086F880 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF0E559617DB94240086F880 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF0E558A17DB94230086F880 /* OpenTerminal.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTerminal.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0E558D17DB94230086F880 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AF0E559017DB94230086F880 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AF0E559117DB94230086F880 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AF0E559217DB94230086F880 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF0E559517DB94240086F880 /* OpenTerminal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenTerminal-Info.plist"; sourceTree = "<group>"; };
+		AF0E559717DB94240086F880 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF0E559917DB94240086F880 /* OpenTerminal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenTerminal-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF0E558717DB94230086F880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0E558E17DB94230086F880 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF0E558117DB94230086F880 = {
+			isa = PBXGroup;
+			children = (
+				AF0E559317DB94230086F880 /* OpenTerminal */,
+				AF0E558C17DB94230086F880 /* Frameworks */,
+				AF0E558B17DB94230086F880 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF0E558B17DB94230086F880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF0E558A17DB94230086F880 /* OpenTerminal.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF0E558C17DB94230086F880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF0E558D17DB94230086F880 /* Cocoa.framework */,
+				AF0E558F17DB94230086F880 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF0E558F17DB94230086F880 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF0E559017DB94230086F880 /* AppKit.framework */,
+				AF0E559117DB94230086F880 /* CoreData.framework */,
+				AF0E559217DB94230086F880 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AF0E559317DB94230086F880 /* OpenTerminal */ = {
+			isa = PBXGroup;
+			children = (
+				AF0E559417DB94240086F880 /* Supporting Files */,
+			);
+			path = OpenTerminal;
+			sourceTree = "<group>";
+		};
+		AF0E559417DB94240086F880 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF0E559517DB94240086F880 /* OpenTerminal-Info.plist */,
+				AF0E559617DB94240086F880 /* InfoPlist.strings */,
+				AF0E559917DB94240086F880 /* OpenTerminal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF0E558917DB94230086F880 /* OpenTerminal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0E559C17DB94240086F880 /* Build configuration list for PBXNativeTarget "OpenTerminal" */;
+			buildPhases = (
+				AF0E558617DB94230086F880 /* Sources */,
+				AF0E558717DB94230086F880 /* Frameworks */,
+				AF0E558817DB94230086F880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenTerminal;
+			productName = OpenTerminal;
+			productReference = AF0E558A17DB94230086F880 /* OpenTerminal.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF0E558217DB94230086F880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mobile Genius LLC";
+			};
+			buildConfigurationList = AF0E558517DB94230086F880 /* Build configuration list for PBXProject "OpenTerminal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF0E558117DB94230086F880;
+			productRefGroup = AF0E558B17DB94230086F880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF0E558917DB94230086F880 /* OpenTerminal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF0E558817DB94230086F880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0E559817DB94240086F880 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF0E558617DB94230086F880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF0E559617DB94240086F880 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF0E559717DB94240086F880 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF0E559A17DB94240086F880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AF0E559B17DB94240086F880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AF0E559D17DB94240086F880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTerminal/OpenTerminal-Prefix.pch";
+				INFOPLIST_FILE = "OpenTerminal/OpenTerminal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AF0E559E17DB94240086F880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTerminal/OpenTerminal-Prefix.pch";
+				INFOPLIST_FILE = "OpenTerminal/OpenTerminal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF0E558517DB94230086F880 /* Build configuration list for PBXProject "OpenTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0E559A17DB94240086F880 /* Debug */,
+				AF0E559B17DB94240086F880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0E559C17DB94240086F880 /* Build configuration list for PBXNativeTarget "OpenTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0E559D17DB94240086F880 /* Debug */,
+				AF0E559E17DB94240086F880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF0E558217DB94230086F880 /* Project object */;
+}
