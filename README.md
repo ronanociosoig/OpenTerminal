@@ -12,6 +12,8 @@ Build the OpenTerminal target in the Xcode project and the plug-in will automati
 
 Note that this project is compiled with garbage collection supported, and ARC disabled.
 
+Compatible with XCode 5 DP 6.
+
 ## License
 
 MIT License
