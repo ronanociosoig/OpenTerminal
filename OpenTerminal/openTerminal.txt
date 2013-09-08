@@ -1,0 +1,26 @@
+--
+-- Script by Ronan O Ciosoig
+-- Mobile Genius LLC
+-- September 1, 2013
+--
+
+tell application "Xcode"
+	set my_work_space to active workspace document
+	set my_projects to projects of my_work_space
+	set myProject to item 1 of my_projects
+	set ProjName to name of myProject & ".xcodeproj"
+	set fullPath to path of myProject
+	set nameLength to length of ProjName
+	set pathLength to length of fullPath
+	
+	-- remove the project from the path to the project
+	set command to "echo \"" & fullPath & "\" | cut -c 1-" & (pathLength - nameLength - 1)
+	set response to do shell script command
+	
+	-- open a new terminal window 
+	tell application "Terminal"
+		activate
+		do script "cd " & quoted form of response
+	end tell
+	
+end tell

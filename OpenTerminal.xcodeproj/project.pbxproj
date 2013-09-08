@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF0E558E17DB94230086F880 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0E558D17DB94230086F880 /* Cocoa.framework */; };
 		AF0E559817DB94240086F880 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF0E559617DB94240086F880 /* InfoPlist.strings */; };
+		AF0E55A117DB94690086F880 /* OpenTerminal.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0E55A017DB94690086F880 /* OpenTerminal.m */; };
+		AF0E55A317DB94C80086F880 /* openTerminal.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF0E55A217DB94C80086F880 /* openTerminal.txt */; };
+		AF0E55A417DC8B2D0086F880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0E559217DB94230086F880 /* Foundation.framework */; };
+		AF0E55A517DC8B330086F880 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0E559017DB94230086F880 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF0E558A17DB94230086F880 /* OpenTerminal.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTerminal.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF0E558D17DB94230086F880 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AF0E558A17DB94230086F880 /* OpenTerminal.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTerminal.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0E559017DB94230086F880 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		AF0E559117DB94230086F880 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AF0E559217DB94230086F880 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF0E559517DB94240086F880 /* OpenTerminal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenTerminal-Info.plist"; sourceTree = "<group>"; };
 		AF0E559717DB94240086F880 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF0E559917DB94240086F880 /* OpenTerminal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenTerminal-Prefix.pch"; sourceTree = "<group>"; };
+		AF0E559F17DB94690086F880 /* OpenTerminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenTerminal.h; sourceTree = "<group>"; };
+		AF0E55A017DB94690086F880 /* OpenTerminal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenTerminal.m; sourceTree = "<group>"; };
+		AF0E55A217DB94C80086F880 /* openTerminal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = openTerminal.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,7 +31,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF0E558E17DB94230086F880 /* Cocoa.framework in Frameworks */,
+				AF0E55A517DC8B330086F880 /* AppKit.framework in Frameworks */,
+				AF0E55A417DC8B2D0086F880 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +51,7 @@
 		AF0E558B17DB94230086F880 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF0E558A17DB94230086F880 /* OpenTerminal.bundle */,
+				AF0E558A17DB94230086F880 /* OpenTerminal.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,7 +59,6 @@
 		AF0E558C17DB94230086F880 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF0E558D17DB94230086F880 /* Cocoa.framework */,
 				AF0E558F17DB94230086F880 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -64,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				AF0E559017DB94230086F880 /* AppKit.framework */,
-				AF0E559117DB94230086F880 /* CoreData.framework */,
 				AF0E559217DB94230086F880 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
@@ -73,6 +76,8 @@
 		AF0E559317DB94230086F880 /* OpenTerminal */ = {
 			isa = PBXGroup;
 			children = (
+				AF0E559F17DB94690086F880 /* OpenTerminal.h */,
+				AF0E55A017DB94690086F880 /* OpenTerminal.m */,
 				AF0E559417DB94240086F880 /* Supporting Files */,
 			);
 			path = OpenTerminal;
@@ -81,6 +86,7 @@
 		AF0E559417DB94240086F880 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF0E55A217DB94C80086F880 /* openTerminal.txt */,
 				AF0E559517DB94240086F880 /* OpenTerminal-Info.plist */,
 				AF0E559617DB94240086F880 /* InfoPlist.strings */,
 				AF0E559917DB94240086F880 /* OpenTerminal-Prefix.pch */,
@@ -105,7 +111,7 @@
 			);
 			name = OpenTerminal;
 			productName = OpenTerminal;
-			productReference = AF0E558A17DB94230086F880 /* OpenTerminal.bundle */;
+			productReference = AF0E558A17DB94230086F880 /* OpenTerminal.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -140,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF0E559817DB94240086F880 /* InfoPlist.strings in Resources */,
+				AF0E55A317DB94C80086F880 /* openTerminal.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0E55A117DB94690086F880 /* OpenTerminal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,9 +188,12 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -193,7 +204,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -213,13 +224,16 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -228,12 +242,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /Users/ronanocsono;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenTerminal/OpenTerminal-Prefix.pch";
 				INFOPLIST_FILE = "OpenTerminal/OpenTerminal-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
 		};
@@ -241,12 +258,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /Users/ronanocsono;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenTerminal/OpenTerminal-Prefix.pch";
 				INFOPLIST_FILE = "OpenTerminal/OpenTerminal-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Release;
 		};
@@ -269,6 +289,7 @@
 				AF0E559E17DB94240086F880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
