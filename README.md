@@ -9,10 +9,15 @@ A very simple plug-in for XCode that adds a short cut menu option to the File me
 
 Build the OpenTerminal target in the Xcode project and the plug-in will automatically be installed in `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins`. Relaunch Xcode and it will add the new menu item in the File menu.
 
+## Background
 
-Note that this project is compiled with garbage collection supported, and ARC disabled.
+The code packages an existing AppleScript that is called when the menu option is selected. 
 
-Compatible with XCode 5 DP 6.
+## Notes
+
+This project is compiled with garbage collection supported, and ARC disabled.
+
+Compatible with XCode 4 and 5 DP 6.
 
 ## License
 
