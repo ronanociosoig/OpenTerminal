@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9721B67F-58C4-4C98-904E-6F67E1770602</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OpenTerminal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1ED01017-4B7D-470A-B5A4-3C6264A8816E</key>
+		<string>https://github.com/ronanociosoig/OpenTerminal.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OpenTerminal.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1ED01017-4B7D-470A-B5A4-3C6264A8816E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ronanociosoig/OpenTerminal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1ED01017-4B7D-470A-B5A4-3C6264A8816E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1ED01017-4B7D-470A-B5A4-3C6264A8816E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenTerminal</string>
+		</dict>
+	</array>
+</dict>
+</plist>
