@@ -17,7 +17,7 @@ The code packages an existing AppleScript that is called when the menu option is
 
 This project is compiled with garbage collection supported, and ARC disabled.
 
-Compatible with XCode 4 and 5 DP 6.
+Compatible with XCode 4 and 5.
 
 ## License
 
