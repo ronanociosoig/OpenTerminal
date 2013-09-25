@@ -37,7 +37,7 @@ static OpenTerminal *mySharedPlugin = nil;
         [[viewMenuItem submenu] addItem:[NSMenuItem separatorItem]];
         
         NSMenuItem *openTerminalItem = [[NSMenuItem alloc] initWithTitle:@"Open Project in Terminal" action:@selector(open) keyEquivalent:@"t"];
-        [openTerminalItem setKeyEquivalentModifierMask: NSShiftKeyMask | NSCommandKeyMask];
+        [openTerminalItem setKeyEquivalentModifierMask: NSAlternateKeyMask | NSCommandKeyMask];
         [openTerminalItem setTarget:self];
         [[viewMenuItem submenu] addItem:openTerminalItem];
         [openTerminalItem release];
